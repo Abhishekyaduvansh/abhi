@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Abhishek</title>
+    <style>
+        *{
+            margin: 0px;
+            font-family: "comic sans ms",sans-serif;
+        }
+        body{
+            background-color: rgba(102, 56, 24, 0.558);
+        }
+        img{
+            height: 170px;
+            width: 170px;
+            border-radius: 100%;
+        }
+        aside{
+            display: flex;
+            flex-direction: column;
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 210px;
+            height: 100vh;
+            float: left;
+            text-align: center;
+            background:linear-gradient(60deg,rgb(98, 48, 15),rgb(98, 48, 15),rgb(237, 126, 70),rgb(98, 48, 15), rgb(101, 45, 21)) ;
+        }
+        aside>img{
+
+            margin:10px auto ;
+        }
+        aside>a{
+            color: rgb(252, 252, 252);
+            text-decoration: none;
+            margin: 10px;
+        }
+        aside>a:hover{
+            text-decoration: underline;
+            text-shadow: 0px 0px 10px rgb(255, 255, 255);
+        }
+
+        .same{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+            margin-left: 200px;
+            height: auto;  
+        }
+        .same p{
+            padding: 30px;
+        }
+        
+        h1{
+            margin-top: 80px;
+            border-radius: 100px;
+            padding: 15px 20px;
+            text-decoration: underline;
+            text-align: center;
+            background:linear-gradient(45deg,rgb(98, 48, 15),rgb(237, 126, 70), rgb(101, 45, 21)) ;
+            margin-bottom: 20px;
+            
+            
+        }
+        .first-h1{
+            margin-top:40px;
+        }
+
+        #qualification{
+            text-align: center;
+            margin-left: 200px;
+            height: 40vh;
+            background-color: rgba(102, 56, 24, 0.486);
+        }
+        
+        td{
+            color: rgb(66, 66, 66);
+            text-decoration:underline;
+            text-align: center;
+            padding:30px;
+        }
+        #hobI{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            text-transform: capitalize;
+            
+        }
+        #hobI>li{
+            list-style: none;
+            
+            margin: 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <img src="Image/MyPic.JPG" alt="">
+        <a href="#about"><h2>About</h2></a>
+        <a href="#qualifications"><h2>Qualifications</h2></a>
+        <a href="#skills"><h2>Skills</h2></a>
+        <a href="#hobbies"> <h2>Hobbies</h2></a>
+        <a href="#personal"><h2>Personal</h2></a>
+        <a href="#declaration"><h2>Declaration</h2></a>
+    </aside>
+    <!-- About -->
+    <section id="about" class="same">
+        <h1 class="first-h1">About</h1>
+        <p>Highly motivated and adaptable individual seeking an internship opportunity in Web Development or Software Development. Strong technical skills in HTML, CSS, JavaScript, Bootstrap, Java, OOPs concept, and Oracle SQL, coupled with excellent communication, leadership, and teamwork abilities. Passionate about photography, videography, video editing and exploring new places.
+            !</p>
+
+    </section>
+    <!-- Qualifications -->
+    <section id="qualifications" class="same">
+        <h1>Qualifications</h1>
+       
+        <table>
+            <tr>
+                <th>Degree Name</th>
+                <th>Institute Name</th>
+                <th>Year of Completion</th>
+                <th>Aggregates</th>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>St. Francis School</td>
+                <td>2017</td>
+                <td>58.80%</td>
+            </tr>
+            <tr>
+                <td>Intermediate</td>
+                <td>Universal Public School</td>
+                <td>2019</td>
+                <td>60.20%</td>
+            </tr>
+            <tr>
+                <td>Bachelor's Degree(CSE)</td>
+                <td>Accurate Institute of Management and Technology</td>
+                <td>2023</td>
+                <td>68.08%</td>
+            </tr>
+        </table>
+   
+
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="same">
+        <h1>Skills</h1>
+        <table>
+            <thead>
+                <th> <ul><b>Programming Languages:</b></ul></th>
+                <th> <ul><b>Tools & Technologies:</b></ul></th>
+                <th> <ul><b>Frameworks:</b></ul></th>
+                <th> <ul><b>Databases:</b></ul></th>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <li>Java</li>
+                        <li> JavaScript</li></td>
+                    <td>
+                        <li>Eclipse</li>
+                        <li> Visual Studio Code</li>
+                        <li>Git</li>
+                    </td>
+                    <td>
+                        <li>Hibernate</li>
+                        <li>Spring Boot</li>
+                        <li>ReactJs</li>
+                    </td>
+                    <td>
+                        <li>OracleDB</li>
+                        <li>MySQL</li>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+          
+                
+
+            
+        
+
+    </section>
+    <!-- Hobbies -->
+    <section id="hobbies" class="same">
+        <h1>Hobbies</h1>
+        <p>I enjoy Watching Anime, Clicking Photos and Editing Videos.</p>
+        <div id="hobI">
+        <li>
+            <img src="Image/Asta.jpg" alt="Soccer"/>
+            <figcaption>>Watch Anime with friends at the weekends!</figcaption>
+
+        </li>
+        <li>
+            <img src="Image/Flower.png" alt="Book"/>
+            <figcaption>>Clicking Photos of Nature.</figcaption>
+            
+
+        </li>
+        <li>
+            <img src="Image/coffee.png" alt="Learn"/>
+            <figcaption>>Editing them is my way to relax!</figcaption>
+            
+        </li>
+        </div>
+    </section>
+    <!-- Personal -->
+    <section id="personal" class="same">
+        <h1>Personal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium sed architecto ullam assumenda beatae et autem quos tempora saepe porro consequatur id facilis fuga ipsa, minima sunt consequuntur ab?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quod excepturi similique rerum voluptate. Dolore quia recusandae aspernatur repudiandae? Inventore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, molestiae asperiores corporis aperiam expedita, beatae enim illo sit praesentium tenetur illum itaque repellat eius voluptatem in consequatur, officia neque quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam deleniti autem corporis et voluptates nesciunt nostrum soluta. Repellat, quisquam nesciunt iure rerum eius atque, quibusdam iusto itaque beatae accusamus quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos adipisci sequi molestiae laudantium cum minima repudiandae consectetur quidem sit tempora, suscipit odio voluptatum vel quam molestias tempore facere nemo. corrupti nam obcaecati quae animi provident officia necessitatibus tempore cum!Lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis in aut molestias nihil exercitationem possimus expedita, repellendus perferendis, ipsam sunt, veritatis ipsa laborum incidunt inventore molestiae nemo nulla nobis facilis?
+        </p>
+    </section>
+    <!-- Declaration -->
+    <section id="declaration" class="same">
+        <h1>Declaration</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo placeat voluptatum sunt, reprehenderit adipisci eligendi atque impedit doloribus, quas vitae culpa quisquam rerum possimus deserunt vel delectus molestias nesciunt sint.sed architecto ullam assumenda beatae et autem quos tempora saepe porro consequatur id facilis fuga ipsa, minima sunt consequuntur ab?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quod excepturi similique rerum voluptate. Dolore quia recusandae aspernatur repudiandae? Inventore corrupti nam obcaecati quae animi provident officia necessitatibus tempore cum!Lorem
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis in aut molestias nihil exercitationem possimus expedita, repellendus perferendis, ipsam sunt, veritatis ipsa laborum incidunt inventore molestiae nemo nulla nobis facilis?
+        </p>
+    </section>
+</body>
+</html>
